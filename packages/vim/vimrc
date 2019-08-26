@@ -155,7 +155,7 @@ call plug#end()
 set updatetime=250
 
 nnoremap <Space> za
-noremap <silent> <C-g> :NERDTreeToggle<CR>
+noremap <Tab> :NERDTreeToggle<CR>
 noremap <silent> <leader>. :edit .<CR>
 
 let g:ctrlp_match_window = 'bottom,order:ttb'
